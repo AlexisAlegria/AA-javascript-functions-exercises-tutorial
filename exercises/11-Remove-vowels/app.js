@@ -1,5 +1,6 @@
 
 const rapid = (myString) => {
+    myString = myString.toLowerCase();
     let consonants = [];
     for(let position in myString){
         if(['a','e','i','o','u'].includes(myString[position]) == false)

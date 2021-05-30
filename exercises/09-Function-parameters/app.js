@@ -1,4 +1,7 @@
 // Your code goes here:
+const renderPerson = function(name, dateofbirth, eyescolor, age, gender){
+  return `${name} is a ${age} years old ${gender} born in ${dateofbirth} with ${eyescolor} eyes`;
+}
 
 
 
